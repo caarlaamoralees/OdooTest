@@ -7,11 +7,11 @@ Esta es una guia para instalar el CRM de Odoo en Render
    - extra_addons
        - dummy_module
             - init.py
-            - manifest.py
+            - __manifest__.py
        -  gitkeep
    - Dockerfile
   
-## 2. Rellenar el fichero Dockerfile
+## 2. Rellenar el fichero Dockerfile y __manifest__.py
 
 En el interior de nuestro fichero Dockerfile, hay que introducir lo siguiente:
 ```
