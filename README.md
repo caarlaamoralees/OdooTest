@@ -80,3 +80,6 @@ Estos parametros tenemos que copiarlos para introducirlos en el siguiente paso c
    A continuacion, debemos entrar en nuestro web service, y en la barra lateral debemos seleccionar "Environment" y ahi, introducir la clave y el valor de los datos.
 ###  * IMPORTANTE: la clave de estos datos tenemos que copiarla de nuestro Dockerfile donde encontraremos valores como "$PORT" por ejemplo, esto se aplica para el resto de parametros, cada uno tiene su clave.
 El valor lo debemos haber copiado en el paso anterior, por lo que ya solo nos quedaria pegar cada uno con su clave y ya habriamos finalizado los pasos para completar nustro contenedor de Docker con Odoo, listo para su uso. 
+
+
+Si en este proceso nos ha surgido algun tipo de error deberemos limpiar la memoria cache y volver a iniciar el proceso.
