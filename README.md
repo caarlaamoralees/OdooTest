@@ -42,6 +42,16 @@ odoo --db_host=$PGHOST --db_port=$PGPORT \
 --db-filter=$PGDATABASE \
 --dev=all"]
 ```
+y dententro del fichero __manifest__.py lo siguiente:
+```
+{
+    "name": "Dummy Module",
+    "version": "1.0",
+    "summary": "Módulo vacío de prueba",
+    "installable": True,
+}
+```
+
 
 ## 3. Registrarse en render
   Una vez que hemos creado el repositorio de GitHub vamos a dirigirnos a [Render](https://render.com) y nos registramos con nuestra cuenta de GitHub
