@@ -73,9 +73,9 @@ Una vez que nos aseguremos de esto, podemos finalizar con la creacion del web se
    * Hostname
    * Port
    * Database
-   * Password
+   * User y Password
      
-Estos parametros tenemos que copiarlos para introducirlos en el siguiente paso como variables de entorno en nuestro web service.
+Estos parametros tenemos que copiarlos para introducirlos en el siguiente paso como variables de entorno en nuestro web service con los datos que teniamos en las variables del contenido del fichero Dockerfile.
 
 ## 7. Configurar variables de entorno en Web Service
    A continuacion, debemos entrar en nuestro web service, y en la barra lateral debemos seleccionar "Environment" y ahi, introducir la clave y el valor de los datos.
