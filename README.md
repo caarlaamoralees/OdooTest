@@ -60,9 +60,10 @@ y dentro del fichero __manifest__.py lo siguiente:
   Cuando estemos en el dashboard de Render, procedemos a crear un servidor que pueda alojar nuestro contenedor de Docker con Odoo, para ello creamos un nievo "Web service" y en el selector "Git Provider" donde veremos todos nuestros repositorios, seleccionamos el nombre del repo que acabamos de crear.
 ### * NOTA: antes de crearlo tenemos que asegurarnos de que:
   * El lenguaje esta configurado a "Docker"
+  * La region que sea frankfurt
   * El tipo de instancia (Instance type) esta seleccionado el "Free"
 
-Una vez que nos aseguremos de esto, podemos roceder con la creacion del web service.
+Una vez que nos aseguremos de esto, podemos finalizar con la creacion del web service.
 
 ## 5. Crear una base de datos Postgres
   Con el web service creado, podemos proceder a crear la base de datos postgre que alojara nuestros datos de Odoo. Para ello, en el dashboard de Render, crearemos in nuevo Postgres asegurandonos de que el "Instance type" es free
