@@ -1,6 +1,6 @@
 # Instalar Odoo en Render
 
-Esta es una gia para instalar el CRM de Odoo en Render
+Esta es una guia para instalar el CRM de Odoo en Render
 
 ## 1. Crear el proyecto
    Lo primero, hay que crear los ficheros requeridos para que el futuro servidor funcione correctamente, para ello hay que crear la siguiente extructura de proyectos.
