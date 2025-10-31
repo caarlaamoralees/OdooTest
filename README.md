@@ -42,7 +42,7 @@ odoo --db_host=$PGHOST --db_port=$PGPORT \
 --db-filter=$PGDATABASE \
 --dev=all"]
 ```
-y dententro del fichero __manifest__.py lo siguiente:
+y dentro del fichero __manifest__.py lo siguiente:
 ```
 {
     "name": "Dummy Module",
