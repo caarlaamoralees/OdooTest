@@ -73,6 +73,7 @@ Una vez que nos aseguremos de esto, podemos roceder con la creacion del web serv
    * Port
    * Database
    * Password
+     
 Estos parametros tenemos que copiarlos para introducirlos en el siguiente paso como variables de entorno en nuestro web service.
 
 ## 7. Configurar variables de entorno en Web Service
